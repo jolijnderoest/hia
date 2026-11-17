@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+   [class*="col-"]{
+    float:left;
+    padding: 10px;
+    vertical-align: top;
+    margin:0;
+    box-sizing: border-box;}
+
+@media screen and (min-width:768px){
+    .col-2
+    .col-9 {width:50%;}
+    .attractie img{float: none;
+        display: block;}
+    }
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.header{
+    width:100%;
+    background-color: blue;
+    color: black;
+    font-family: sans-serif;
+    background-image: url(hia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 100px;}
+
+#een{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;}
+
+.weetjes{
+    background-color: beige;
+    height: 700px;
+    width: 100%;
+    padding:15px;}
+
+#drie{
+    height: 700px;
+    background-color: lightblue;
+    padding:15px;
+    width: 100%}
+
+.attractie{
+    width: 90%;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;}
+
+.attractie img {
+    width: 120px;
+    height: 100px;
+    float: right;
+    margin-left: 15px;}
+
+.footer{
+    width:100%;
+    height: 150px;
+    background-color: aqua;
+    color: white;
+    clear:both}
+
+    </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <header>
+            <p>Hendrik-Ido-Ambacht</p>
+            </header>
+        </div>
+        <div class="col-2">
+        <section id="een">
+            <div class="weetjes">
+                <h2>5 Weetjes over Hendrik-Ido-Ambacht</h2>
+                
+                <h3>1. Al heel oud!</h3>
+                <p>De streek wordt al sinds ongeveer het jaar 1000 permanent bewoond.</p>
+                
+                <h3>2. Scheepssloopdorp</h3>
+                <p>Ambacht was vroeger bekend om het slopen van oude schepen.</p>
+
+                <h3>3. Bijzondere monumenten</h3>
+                <p>Het dorp heeft verschillende monumenten.</p>
+
+                <h3>4. Groeiende gemeente</h3>
+                <p>Ambacht groeide flink na de Tweede Wereldoorlog.</p>
+
+                <h3>5. Het Waaldorp</h3>
+                <p>Ambacht ligt aan de rivier de Waal.</p>
+            </div>
+        </section>
+        </div>
+
+         <div class="col-9">
+        <section id="drie">
+        <h2>Attracties in Hendrik-Ido-Ambacht</h2>
+        <div class="attractie">
+            <article>
+                <h3>Sophiapark</h3>
+                <p>
+                    Het Sophiapark is een mooi park waar je
+                    kunt wandelen, spelen en genieten van de natuur.
+                </p>
+            </article>
+
+            <img src="sophiapark.jpg" alt="Sophiapark">
+        </div>
+
+        <div class="attractie">
+            <article>
+                <h3>Cultureel Centrum Cascade</h3>
+                <p>
+                    Cascade is een cultureel centrum waar
+                    verschillende voorstellingen en activiteiten
+                    worden georganiseerd.
+                </p>
+            </article>
+
+            <img src="cascade.jpg" alt="Cultureel Centrum Cascade">
+        </div>
+        </section>
+        </div>
+
+        <div class="footer">
+        <footer>
+            <H2> Copyright @jolijnderoest</H2>
+        </footer>
+        </div>
+    </body>
+</html>
